@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/styles.css" />
@@ -20,28 +20,39 @@
       <div class="main_content">
         <!--about user-->
         <div class="about_user">
-          <h2 class="about_position">Front-End Developer</h2>
           <h1 class="about_name">Rostyslav Kryvoviaz</h1>
+          <h2 class="about_position">Junior Front-End Developer</h2>
           <p class="about_discription">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-            accumsan lacus vel facilisis.
+            I am a Junior Front End developer. I focus on HTML5, CSS3, JS,
+            React, English. Development, practice and work for the result are
+            important for me. I am skillful in analyzing problems and thinking
+            of solutions to accurately troubleshoot and solve technical
+            problems. I am a fast learner, responsible, and ready for
+            challenging tasks.
           </p>
         </div>
         <!--Projects-->
         <div class="projects">
           <h3 class="title">Projects</h3>
-          <ol class="project_list">
+          <ul class="project_list">
             <li class="project_item">
               <span class="project"
-                ><a href="https://hellenglish.goit.global/" class="project_link"
-                  >https://hellenglish.goit.global/</a
-                >
-                ..........
-                <span class="project_bracket">[</span> HTML5, CSS3
-                <span class="project_bracket">]</span>
+                ><a
+                  href="https://github.com/RostyslavKr/project-goit"
+                  target="_blank"
+                  class="project_link"
+                  >Ice Cream ..........................<span
+                    class="project_bracket"
+                    >[</span
+                  >
+                  HTML5, CSS3, JS <span class="project_bracket">]</span>
+                </a>
               </span>
+
+              <p class="describe-project">
+                Ice company website with responsive layout, burger menu, modal
+                window and attractive design. Role: Developer.
+              </p>
             </li>
             <li class="project_item">
               <span class="project"
@@ -63,10 +74,10 @@
                 <span class="project_bracket">]</span>
               </span>
             </li>
-          </ol>
+          </ul>
         </div>
         <!--Work-->
-        <div class="work">
+        <div class="work" hidden>
           <h3 class="title">Work Experience</h3>
           <!--Company 1-->
           <div>
@@ -131,44 +142,77 @@
             </ul>
           </div>
           <!--Education-->
-          <div class="education">
-            <h3 class="education_title">Education</h3>
-            <h4 class="university">
-              Dnipro State Agrarian and Economic University
-            </h4>
-            <h4 class="speciality">Agricultural engineering</h4>
-            <p class="period">
-              September 2015 - June 2022 <span class="line">|</span> Ukraine
-            </p>
-          </div>
+        </div>
+        <div class="education">
+          <h3 class="education_title">Education</h3>
+          <h4 class="university">
+            Dnipro State Agrarian and Economic University
+          </h4>
+          <h4 class="speciality">Agricultural engineering</h4>
+          <p class="period">
+            September 2015 - June 2022 <span class="line">|</span> Ukraine
+          </p>
+          <h4 class="university">IT School GoIT</h4>
+          <h4 class="speciality">Fullstack Developer</h4>
+          <p class="period">2022-2023 <span class="line">|</span> Ukraine</p>
         </div>
       </div>
       <!--Sidebar-->
       <aside class="sidebar">
-        <img
-          src="img/photo_2022-01-30_12-43-02.jpg"
-          alt="user photo"
-          class="photo"
-        />
+        <div class="wrapper-photo">
+          <img
+            src="img/photo_2022-01-30_12-43-02.jpg"
+            alt="user photo"
+            class="photo"
+          />
+        </div>
         <!--Conacts-->
         <div class="contacts">
           <h3 class="sidebar_title">Contacts</h3>
-          <div>
-            <p>
-              <span class="contact_type">C:</span>
-              <a href="tel:+380957795295" class="contact_link"
-                >+380 95 779 52 95</a
-              >
-            </p>
+          <div class="contacts-wrapper">
+            <a href="tel:+380957795295" class="contact_link">
+              <svg class="icon" width="20" height="20">
+                <use href="./img/symbol-defs.svg#icon-mobile"></use>
+              </svg>
+              +380 95 779 52 95</a
+            >
 
-            <p>
-              <span class="contact_type">E:</span>
-              <a
-                href="mailto:kryvoviaz.rostyslav@gmail.com"
-                class="contact_link"
-                >kryvoviaz.rostyslav@gmail.com</a
-              >
-            </p>
+            <a href="mailto:krivovyaz.ros@gmail.com" class="contact_link">
+              <svg class="icon" width="20" height="20">
+                <use href="./img/symbol-defs.svg#icon-mail4"></use>
+              </svg>
+              krivovyaz.ros@gmail.com</a
+            >
+            <a
+              href="https://github.com/RostyslavKr"
+              target="_blank"
+              class="contact_link"
+            >
+              <svg class="icon" width="20" height="20">
+                <use href="./img/symbol-defs.svg#icon-github"></use>
+              </svg>
+              GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/rostyslav-kryvoviaz-28a920242"
+              target="_blank"
+              class="contact_link"
+            >
+              <svg class="icon" width="20" height="20">
+                <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+              LinkedIn</a
+            >
+            <a
+              href="https://t.me/Rostyslav_Siriy"
+              target="_blank"
+              class="contact_link"
+            >
+              <svg class="icon" width="20" height="20">
+                <use href="./img/symbol-defs.svg#icon-telegram"></use>
+              </svg>
+              @Rostyslav_Siriy</a
+            >
           </div>
         </div>
         <!--Tech skills-->
@@ -182,6 +226,9 @@
               <span class="tech_skill_text">CSS3</span>
             </li>
             <li class="tech_skill_item">
+              <span class="tech_skill_text">SASS</span>
+            </li>
+            <li class="tech_skill_item">
               <span class="tech_skill_text">GIT</span>
             </li>
             <li class="tech_skill_item">
@@ -190,26 +237,63 @@
             <li class="tech_skill_item">
               <span class="tech_skill_text">React.js</span>
             </li>
+            <li class="tech_skill_item">
+              <span class="tech_skill_text">React Redux</span>
+            </li>
+            <li class="tech_skill_item">
+              <span class="tech_skill_text">REST API</span>
+            </li>
+            <li class="tech_skill_item">
+              <span class="tech_skill_text">Node.js</span>
+            </li>
           </ul>
         </div>
         <!--Soft skills-->
         <div class="soft_skills">
           <h3 class="soft_skills_title">Soft skills</h3>
-          <ul class="soft_skills_link">
+          <ul class="soft_skills_list">
+            <li class="soft_skills_item">
+              <span class="soft_skills_text">Conscientious</span>
+            </li>
+            <li class="soft_skills_item">
+              <span class="soft_skills_text">Eager to learn</span>
+            </li>
             <li class="soft_skills_item">
               <span class="soft_skills_text">Scrum</span>
-            </li>
-            <li class="soft_skills_item">
-              <span class="soft_skills_text">Agile</span>
-            </li>
-            <li class="soft_skills_item">
-              <span class="soft_skills_text">GTD</span>
             </li>
             <li class="soft_skills_item">
               <span class="soft_skills_text">Teamwork</span>
             </li>
             <li class="soft_skills_item">
               <span class="soft_skills_text">Time Management</span>
+            </li>
+            <li class="soft_skills_item">
+              <span class="soft_skills_text">Courteous</span>
+            </li>
+            <li class="soft_skills_item">
+              <span class="soft_skills_text">Critical thinking skills</span>
+            </li>
+            <li class="soft_skills_item">
+              <span class="soft_skills_text">Positive attitude</span>
+            </li>
+          </ul>
+        </div>
+        <div class="language">
+          <h3 class="language-title">Language</h3>
+          <ul class="language-list">
+            <li class="language-item">
+              <svg class="icon" width="20" height="20">
+                <use href="./img/symbol-defs.svg#icon-ukraine-flag-icon"></use>
+              </svg>
+              Ukrainian - Native
+            </li>
+            <li class="language-item">
+              <svg class="icon" width="20" height="20">
+                <use
+                  href="./img/symbol-defs.svg#icon-united-kingdom-flag-icon"
+                ></use>
+              </svg>
+              English - Intermediate(B1)
             </li>
           </ul>
         </div>
