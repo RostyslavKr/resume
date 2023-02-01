@@ -19,10 +19,11 @@ p{
 
 .main{
     display: flex;
-        flex-direction: row-reverse;
-        max-width: 1024px;
-   margin-left:  auto;
-    margin-right: auto; 
+    flex-direction: row-reverse;
+    width: 1024px;
+    margin-left:  auto;
+    margin-right: auto;
+    
 }
 
 
@@ -63,7 +64,7 @@ font-style: normal;
 }
 
 .about_discription{
-font-style: normal;
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -73,12 +74,12 @@ font-style: normal;
 
 /* projects styles */
 .projects{
-margin-bottom: 50px;
+    margin-bottom: 50px;
 }
    
 
 .title {
-font-style: normal;
+    font-style: normal;
     font-weight: 700;
     font-size: 27px;
     line-height: 27px;
@@ -86,25 +87,24 @@ font-style: normal;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-
     color: #FFFFFF;
     
 }
 .project_item{
     font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 24px;
-        color: #000000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
 
 }
 
 .project{
     font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
 }
 
 .project_list{
@@ -114,25 +114,25 @@ font-style: normal;
 
 .project_link{
     font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
 }
 
 .project_link{
     font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 24px;
-        color: #000000;
-        width: 400px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 400px;
     margin-left: 10px;
 }
 
 
 .project_bracket{
-font-style: normal;
+    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
@@ -141,15 +141,15 @@ font-style: normal;
  .describe-project{
     width: 400px;
     font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
  }
-work styles */
+/* work styles */ 
 
 .work_position{
-font-style: normal;
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -158,7 +158,7 @@ font-style: normal;
 }
 
 .organization{
-font-style: normal;
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -167,15 +167,15 @@ font-style: normal;
 
 .period{
     font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 15px;
-        color: #A8A8A8;
-        margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
 }
 
 .line{
-font-style: normal;
+    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -189,10 +189,10 @@ font-style: normal;
 
 .work_list_item{
     font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
 }
 
 
@@ -203,33 +203,32 @@ font-style: normal;
 
 .education_title{
     font-style: normal;
-        font-weight: 700;
-        font-size: 27px;
-        line-height: 27px;
-        background-color: #4B4B5A;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        text-align: center;
-    
-        color: #FFFFFF;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 27px;
+    background-color: #4B4B5A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .university{
     font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        color: #FB6D3A;
-        margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 10px;
 }
 
 .speciality{
     font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 17px;
-        color: #000000;
-        margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 10px;
 }
 
 
@@ -239,15 +238,12 @@ font-style: normal;
     padding-top: 20px;
     width:370px ;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-     
-    
 }
 
 .photo {
     display: block;
     width: 250px;
     height: 250px;
-    
     margin-bottom: 50px;
     margin-right: auto;
     margin-left: auto;
@@ -257,14 +253,14 @@ font-style: normal;
 .sidebar_title{
     color: #FFFFFF;
     font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 27px;
-        line-height: 27px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        text-align:center;
-        background-color: #4B4B5A;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+    background-color: #4B4B5A;
       
 }
 
@@ -280,32 +276,31 @@ font-style: normal;
 }
 .contact_type{
     font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 24px;
-        color: #FFFFFF;
-        margin-right: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 5px;
 }
 
 .contact_link{
     display: flex;
     align-items: center;
     font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        
-       
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
     margin-left: 10px;
     margin-bottom: 5px;
-       
-        color: #4B4B5A;
+    color: #4B4B5A;
 }
+
 .tech_skills{
     margin-bottom: 25px;
 }
+
 .tech_skills_list{
-font-style: normal;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -325,29 +320,27 @@ font-style: normal;
 .tech_skill_text{
     color: #4B4B5A;
     font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 .soft_skills{
     margin-bottom: 25px;
 }
 .soft_skills_title{
     font-style: normal;
-        font-weight: 700;
-        font-size: 27px;
-        line-height: 27px;
-       background-color:#4B4B5A;
-       padding-top: 10px;
-       padding-bottom: 10px;
-       text-align: center;
-    
-        color: #FFFFFF;
-    
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 27px;
+    background-color:#4B4B5A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .soft_skills_list{
-font-style: normal;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -361,13 +354,10 @@ font-style: normal;
 
 .soft_skills_text{
     font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        
-    
-    
-        color: #4B4B5A;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4B4B5A;
 }
 
 .soft_skills_item{
@@ -376,18 +366,18 @@ font-style: normal;
 
 .language-title{
     font-style: normal;
-        font-weight: 700;
-        font-size: 27px;
-        line-height: 27px;
-        background-color: #4B4B5A;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        text-align: center;
-    
-        color: #FFFFFF;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 27px;
+    background-color: #4B4B5A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #FFFFFF;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .language-list{
     margin-top: 0;
     margin-bottom: 0;
@@ -404,15 +394,14 @@ font-style: normal;
     list-style: none;
     color: #4B4B5A;
     font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
+
 .icon {
-    
     fill: currentColor;
     margin-right: 10px;
-    
 }
 
 
