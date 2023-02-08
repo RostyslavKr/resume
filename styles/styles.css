@@ -2,9 +2,10 @@
 body{
     background-color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
-    padding-left: 15px;
+    margin: 0;
     
 }
+
  a{
     text-decoration: none;
  }
@@ -21,9 +22,9 @@ p{
 .main{
     display: flex;
     flex-direction: row-reverse;
-    width: 1024px;
+    width: 1024px; 
     margin-left:  auto;
-    margin-right: auto;
+    margin-right: auto;  
     
 }
 
@@ -32,7 +33,7 @@ p{
 /* main content styles */
 .main_content{
     background-color: #FFFFFF;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
     padding: 90px 90px 100px 90px;
     
 }
@@ -231,7 +232,7 @@ font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: #FB6D3A;
+    color: #000000;
     margin-bottom: 10px;
 }
 
@@ -250,7 +251,8 @@ font-style: normal;
     background-color: #DBDBDB;
     padding-top: 20px;
     width:370px ;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
 }
 
 .photo {
@@ -420,5 +422,27 @@ font-style: normal;
     margin-right: 10px;
 }
 
-
+@media print {
+    body{
+        margin: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .main{
+        padding-bottom: 0;
+        margin-bottom: 0;
+        outline: none;
+    }
+    .main_content{
+        box-shadow: none;
+       margin-bottom: 0;
+       padding-bottom: 0;
+       
+    }
+    .sidebar{
+        
+        padding-bottom: 6px;
+        box-shadow: none;
+    }
+}
 
